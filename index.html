@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Word Guess Game</title>
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="text-center">Word Guess Game</h1>
+        <h4 class="text-center instruction">Press Any Key to Get Started!!</h4>
+      </div>
+      <br>
+    <div class="container">
+        <div class="card mt-1">
+            <div class="card-header">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Current Word</h3>
+                    <h2 id="computer-pick"></h2>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="card mt-1 col-6">
+                <div class="card-header">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Letters already Guessed</h4>
+                        <h4 id="already-guessed"></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-1 col-6">
+                <div class="card-header">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Number of Guesses Remaining</h4>
+                        <h4 id="guesses-remaining"></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card mt-1">
+            <div class="card-header">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Wins</h3>
+                    <h2 id="wins"></h2>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <button type="button" class="btn btn-secondary btn-lg">Play Again</button>
+
+    </div>
+    
+</body>
