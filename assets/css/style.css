@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 *{font-family: 'Abel', sans-serif;}
 body{
-   background-image: url("/img/j2EVpWQ0U9Px-900x563.jpg");
+   background-image: url("../img/pow-star.png");
 }
 .jumbotron{
-background-image: url("https://tribzap2it.files.wordpress.com/2015/08/classic-disney-movies-pop-quiz-disney.jpg?w=900"); background-size: 100%;
-color: yellow;
+   background-image:   url('../img/disney.jpg');
+   background-repeat: no-repeat; 
+   background-size: cover; 
+
+color:yellow;
 font-family: Arial, Helvetica, sans-serif
 }
 .instruction{
    color: wheat;
+}
+span{
+   font-size: 40px;
+}
+#under-score{
+   font-size: 30px;
 }
